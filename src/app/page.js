@@ -1,9 +1,9 @@
-import React from 'react'
+import HomeHeader from '@/app/components/HomeHeader';
 
-function Home() {
+export default function Home() {
   return (
-    <h1 className="text-red-500">Home</h1>
-  )
+    <>
+      <HomeHeader />
+    </>
+  );
 }
-
-export default Home
